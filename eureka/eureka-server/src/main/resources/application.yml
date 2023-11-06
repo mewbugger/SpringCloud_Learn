@@ -3,3 +3,17 @@ server:
 spring:
   application:
     name: eureka-server
+eureka: # eureka的配置分为三类 server client 实例的
+  server:
+    expected-client-renewal-interval-seconds: 10000 # 服务端间隔多少毫秒做定期删除的操作
+    renewal-percent-threshold: 0.85 # 续约百分比 超过85%的应用没有和你续约 那么eureka会保护服务 不会提出任何一个
+  instance: # 实例的配置
+    instance-id: ${eureka.instance.hostname}:${spring.application.name}:${server.port} # 主机名称：应用名称：端口号
+    hostname: localhost # 主机名称 或服务的ip
+    prefer-ip-address: true # 以ip的形式显示具体的服务信息
+    lease-renewal-interval-in-seconds: 5 # 服务实例的续约时间间隔
+  client:
+    service-url:
+      defaultZone: ${EUREKA_SERVER_URL:http://localhost:8761/eureka}
+    register-with-eureka: ${REGISTER_WITH_EUREKA:true} # 现将server自己注册资金的开关关掉
+    fetch-registry: true

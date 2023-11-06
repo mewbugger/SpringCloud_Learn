@@ -9,7 +9,9 @@
         <module name="eureka-client-b" />
         <module name="eureka-server" />
         <module name="eureka" />
+        <module name="eureka-server-b" />
         <module name="eureka-client-a" />
+        <module name="eureka-server-c" />
       </profile>
     </annotationProcessing>
   </component>
@@ -19,6 +21,8 @@
       <module name="eureka-client-a" options="-parameters" />
       <module name="eureka-client-b" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="eureka-server-b" options="-parameters" />
+      <module name="eureka-server-c" options="-parameters" />
     </option>
   </component>
 </project>
