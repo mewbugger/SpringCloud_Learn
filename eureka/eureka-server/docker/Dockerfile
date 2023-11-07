@@ -1,5 +1,5 @@
 FROM openjdk:8
-ENV workdir=/root/opt/environment/eureka-serer
+ENV workdir=/root/opt/environment/eureka-server
 COPY . ${workdir}
 WORKDIR ${workdir}
 EXPOSE 8761

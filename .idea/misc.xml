@@ -10,6 +10,11 @@
         <option value="$PROJECT_DIR$/eureka/eureka-client-b/pom.xml" />
         <option value="$PROJECT_DIR$/eureka/eureka-server-b/pom.xml" />
         <option value="$PROJECT_DIR$/eureka/eureka-server-c/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka/rest-template/pom.xml" />
+        <option value="$PROJECT_DIR$/ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/ribbon/provider-a/pom.xml" />
+        <option value="$PROJECT_DIR$/ribbon/provider-b/pom.xml" />
+        <option value="$PROJECT_DIR$/ribbon/consumer/pom.xml" />
       </list>
     </option>
   </component>
