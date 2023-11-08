@@ -15,6 +15,12 @@
         <option value="$PROJECT_DIR$/ribbon/provider-a/pom.xml" />
         <option value="$PROJECT_DIR$/ribbon/provider-b/pom.xml" />
         <option value="$PROJECT_DIR$/ribbon/consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/openfeign/pom.xml" />
+        <option value="$PROJECT_DIR$/openfeign/order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/openfeign/user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix/customer-service/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix/rent-car-service/pom.xml" />
       </list>
     </option>
   </component>
