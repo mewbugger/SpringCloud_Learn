@@ -1,0 +1,13 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: login-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.81.130:8761/eureka
+    registry-fetch-interval-seconds: 3 # ?????????????
+  instance:
+    hostname: localhost
+    instance-id: ${eureka.instance.hostname}:${spring.application.name}:${server.port}
