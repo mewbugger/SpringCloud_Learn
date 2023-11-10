@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: nacos-client-a
+  cloud:
+    nacos: # 如果不指定命名空间 会默认注册到public里面去 如果没有指定分组 会注册到DEFAULT_GROUP
+      server-addr: localhost:8848 # 往这个地址去注册自己
+      username: nacos
+      password: nacos
+      discovery: # 这里是和注册相关的配置 两个服务必须在同一个命名空间的同一个组内才能访问
+        namespace: e86f45ed-9601-4cde-ad77-5d84d5d58807
+        group: A_GROUP
+server:
+  port: 8080

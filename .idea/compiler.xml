@@ -8,23 +8,28 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-client-b" />
-        <module name="openfeign" />
-        <module name="login-service" />
-        <module name="hystrix" />
-        <module name="customer-service" />
         <module name="eureka" />
-        <module name="rest-template" />
         <module name="eureka-client-a" />
-        <module name="ribbon" />
-        <module name="rent-car-service" />
         <module name="user-service" />
         <module name="eureka-server" />
+        <module name="nacos" />
+        <module name="nacos-gateway" />
+        <module name="consumer" />
+        <module name="openfeign" />
+        <module name="login-service" />
+        <module name="nacos-client-b" />
+        <module name="nacos-client-a" />
+        <module name="hystrix" />
+        <module name="customer-service" />
+        <module name="rest-template" />
+        <module name="ribbon" />
+        <module name="rent-car-service" />
         <module name="eureka-server-b" />
         <module name="eureka-server-c" />
+        <module name="teacher-service" />
         <module name="gateway-service" />
         <module name="order-service" />
         <module name="provider-b" />
-        <module name="consumer" />
         <module name="gateway" />
         <module name="provider-a" />
       </profile>
@@ -44,6 +49,7 @@
       <module name="gateway-service" options="-parameters" />
       <module name="hystrix" options="-parameters" />
       <module name="login-service" options="-parameters" />
+      <module name="nacos" options="-parameters" />
       <module name="openfeign" options="-parameters" />
       <module name="order-service" options="-parameters" />
       <module name="provider-a" options="-parameters" />
@@ -51,6 +57,7 @@
       <module name="rent-car-service" options="-parameters" />
       <module name="rest-template" options="-parameters" />
       <module name="ribbon" options="-parameters" />
+      <module name="teacher-service" options="-parameters" />
       <module name="user-service" options="-parameters" />
     </option>
   </component>

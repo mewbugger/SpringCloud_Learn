@@ -3,6 +3,9 @@ server:
 spring:
   application:
     name: login-service
+  redis:
+    password: javacppgorust
+    host: 192.168.81.130
 eureka:
   client:
     service-url:
